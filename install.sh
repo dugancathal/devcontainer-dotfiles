@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
 if which apt > /dev/null 2>&1; then
-  sudo apt update && sudo apt install -y zsh nodejs npm fzf tmux
+  sudo apt update
+  sudo apt install -y zsh fzf tmux vim watch tree silversearcher-ag
 fi
 
 if which zsh > /dev/null 2>&1; then
