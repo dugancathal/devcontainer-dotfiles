@@ -2,7 +2,7 @@
 
 if which apt > /dev/null 2>&1; then
   sudo apt update
-  sudo apt install -y zsh fzf tmux vim watch tree silversearcher-ag
+  sudo apt install -y zsh fzf tmux vim watch tree silversearcher-ag direnv postgresql
 fi
 
 if which zsh > /dev/null 2>&1; then
