@@ -16,5 +16,5 @@ git clone https://github.com/dugancathal/dotfiles "${DOTFILES_DIR}"
 
 cd $DOTFILES_DIR
 bundle check || bundle
-bundle exec rake merge_install
+bundle exec rake install:merge_install install:asdf install:tmuxifier install:jrnl
 
