@@ -16,4 +16,4 @@ git clone https://github.com/dugancathal/dotfiles "${DOTFILES_DIR}"
 
 cd $DOTFILES_DIR
 bundle check || bundle
-bundle exec rake install:merge_install install:asdf install:tmuxifier
+bundle exec rake install:merge_install install:linux:asdf install:tmuxifier
